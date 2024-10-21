@@ -3,10 +3,15 @@
 To Implement RSA Encryption Algorithm in C Program
 ## Algorithm:
 1.Select Primes: Choose two large prime numbers, p and q
+
 2.Compute n and φ(n): Calculate n=p×q and ϕ(n)=(p−1)×(q−1).
+
 3.Select e: Choose an integer e such that 1<e<ϕ(n) and gcd(e, φ(n)) = 1.
+
 4.Compute d: Calculate d such that d≡e−1 mod ϕ(n).
+
 5.Encrypt: Compute ciphertext c ≡ me mod n for a message m.
+
 6.Decrypt: Recover the message using m ≡ cd mod n.
 ## Program:
 ```
